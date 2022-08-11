@@ -271,30 +271,30 @@ tfoot td, table th{
         display: none;
     }
 
-    .back-to-top::after{
-        position: fixed;
-        bottom: 2rem;
-        right: 2rem;
-        background: var(--white-color);
-        color: var(--primary-color);
-        width: 4.5rem;
-        height:4.5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
-        content: "❰";
-        transform: rotate(90deg);
-        -webkit-transform: rotate(90deg);
-        -moz-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        -o-transform: rotate(90deg);
-        border: 0.1rem solid var(--primary-color);
 }
+
+.back-to-top{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--white-color);
+    color: var(--primary-color);
+    width: 4.5rem;
+    height:4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    border: 0.1rem solid var(--primary-color);
 }
 
 
