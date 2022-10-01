@@ -207,7 +207,7 @@ tfoot td, table th{
     display: none;
 }
 
-@media (max-width: 800px){
+@media (min-width: 200px) and (max-width:800px) {
     .intro-content, .grid{
         grid-template-columns: 1fr;
     }
@@ -297,4 +297,11 @@ tfoot td, table th{
     border: 0.1rem solid var(--primary-color);
 }
 
-
+#resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 6rem;
+    width: 60rem;
+    margin: 0px 0px 6rem 2rem;
+}
