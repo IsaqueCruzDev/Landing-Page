@@ -23,3 +23,8 @@ function escopoGeral() {
   }
 }
 escopoGeral();
+
+/*
+  Link para saber como estilizar barra de rolagem:
+  https://www.digitalocean.com/community/tutorials/css-scrollbars-pt
+*/

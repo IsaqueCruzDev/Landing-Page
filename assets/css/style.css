@@ -313,3 +313,22 @@ tfoot td, table th{
     padding:1.5rem
 }
 
+body::-webkit-scrollbar {
+    width: 1.8rem;
+
+}
+
+body::-webkit-scrollbar-track {
+    background-color: var(--white-color);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 0.8rem;
+    border: 2px solid var(--light-gray-color);
+    -webkit-border-radius: 0.8rem;
+    -moz-border-radius: 0.8rem;
+    -ms-border-radius: 0.8rem;
+    -o-border-radius: 0.8rem;
+}
+
