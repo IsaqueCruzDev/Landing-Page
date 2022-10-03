@@ -208,6 +208,60 @@ tfoot td, table th{
     display: none;
 }
 
+.back-to-top{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--white-color);
+    color: var(--primary-color);
+    width: 4.5rem;
+    height:4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    border: 0.1rem solid var(--primary-color);
+}
+
+#resultado {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 8rem;
+    max-width: 100vw;
+    padding:1.5rem
+}
+
+body::-webkit-scrollbar {
+    width: 1.8rem;
+
+}
+
+body::-webkit-scrollbar-track {
+    background-color: var(--white-color);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 0.8rem;
+    border: 2px solid var(--light-gray-color);
+    -webkit-border-radius: 0.8rem;
+    -moz-border-radius: 0.8rem;
+    -ms-border-radius: 0.8rem;
+    -o-border-radius: 0.8rem;
+}
+
+
 @media only screen and (min-width: 200px) and (max-width:800px){ 
     .intro-content, .grid{
         grid-template-columns: 1fr;
@@ -276,59 +330,4 @@ tfoot td, table th{
         font-size: 5.2rem;   
     }
 
-
 }
-
-.back-to-top{
-    position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    background: var(--white-color);
-    color: var(--primary-color);
-    width: 4.5rem;
-    height:4.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    border: 0.1rem solid var(--primary-color);
-}
-
-#resultado {
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    height: 8rem;
-    max-width: 100vw;
-    padding:1.5rem
-}
-
-body::-webkit-scrollbar {
-    width: 1.8rem;
-
-}
-
-body::-webkit-scrollbar-track {
-    background-color: var(--white-color);
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color: var(--primary-color);
-    border-radius: 0.8rem;
-    border: 2px solid var(--light-gray-color);
-    -webkit-border-radius: 0.8rem;
-    -moz-border-radius: 0.8rem;
-    -ms-border-radius: 0.8rem;
-    -o-border-radius: 0.8rem;
-}
-
