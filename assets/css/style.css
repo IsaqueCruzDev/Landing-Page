@@ -146,7 +146,7 @@ tfoot td, table th{
 }
 
 .form-group{
-    flex: 1 1 320px;
+    flex: 1 1 32rem;
     overflow-x: none;  
 }
 
